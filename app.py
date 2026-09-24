@@ -1,5 +1,5 @@
+from flask import Flask
 app = Flask(__name__)
-
 @app.route("/")
 def home():
     return """
@@ -7,7 +7,6 @@ def home():
     <p>Application is running successfully!</p>
     <p>Version: 1.0</p>
     """
-
 @app.route("/health")
 def health():
     return "Healthy"
