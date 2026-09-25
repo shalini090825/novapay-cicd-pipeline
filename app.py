@@ -5,7 +5,7 @@ def home():
     return """
     <h1>NovaPay Digital Bank</h1>
     <p>Application is running successfully!</p>
-    <p>Version: 1.0</p>
+    <p>Version: 2.0 Green</p>
     """
 @app.route("/health")
 def health():
